@@ -32,7 +32,7 @@ class WkhtmltopdfDaemon < Sinatra::Base
   end
 
   __END__
-  @@ layout
+  @@layout
   %html
     %head
       %title Network Tools
@@ -44,7 +44,7 @@ class WkhtmltopdfDaemon < Sinatra::Base
     %footer
       %a(href='/') Back to index
 
-  @@ index
+  @@index
   %p
     Welcome to Network Tools. Below is a list
     of the tools available.
@@ -56,7 +56,7 @@ class WkhtmltopdfDaemon < Sinatra::Base
       %h3
         %a(href='/traceroute') Traceroute
 
-  @@ whois
+  @@whois
   %h3 Whois
   %form(action='/whois' method='POST')
     %input(type='text' name='host' value=@host)
@@ -64,7 +64,7 @@ class WkhtmltopdfDaemon < Sinatra::Base
   - if defined?(@results)
     %pre= @results
 
-  @@ traceroute
+  @@traceroute
   %h3 Traceroute
   %form(action='/traceroute' method='POST')
     %input(type='text' name='host' value=@host)

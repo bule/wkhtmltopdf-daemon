@@ -25,9 +25,13 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "bin/wkhtmltopdf-daemon",
+     "lib/...",
      "lib/wkhtmltopdf-daemon.rb",
+     "lib/wkhtmltopdf-daemon/config.ru",
      "test/helper.rb",
-     "test/test_wkhtmltopdf-daemon.rb"
+     "test/test_wkhtmltopdf-daemon.rb",
+     "wkhtmltopdf-daemon.gemspec"
   ]
   s.homepage = %q{http://github.com/bule/wkhtmltopdf-daemon}
   s.rdoc_options = ["--charset=UTF-8"]
