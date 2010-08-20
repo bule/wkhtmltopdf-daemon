@@ -2,7 +2,6 @@ require 'rubygems'
 require 'sinatra/base'
 require 'haml'
 require 'actioncontroller'
-require 'actionpack/lib/action_controller/streaming.rb'
 
 
 class WkhtmltopdfDaemon < Sinatra::Base
