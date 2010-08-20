@@ -27,11 +27,11 @@ Gem::Specification.new do |s|
      "VERSION",
      "bin/wkhtmltopdf-daemon",
      "lib/...",
-     "lib/views/index.haml",
      "lib/wkhtmltopdf-daemon.rb",
      "lib/wkhtmltopdf-daemon/config.ru",
      "test/helper.rb",
      "test/test_wkhtmltopdf-daemon.rb",
+     "views/index.haml",
      "wkhtmltopdf-daemon.gemspec"
   ]
   s.homepage = %q{http://github.com/bule/wkhtmltopdf-daemon}
