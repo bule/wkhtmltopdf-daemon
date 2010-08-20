@@ -1,0 +1,34 @@
+!!!
+%html
+  %head
+    %title
+      wkhtmlto[pdf|jpg] 
+    %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
+  %body
+    convert:
+    %br/
+    %form{:action => "/", :method => "POST"}
+      %input{:name => "url", :type => "text"}/
+      %br/
+      to:
+      %br/
+      = succeed "pdf" do
+        %input{:checked => "", :name => "program", :type => "radio", :value => "1"}/
+      %br/
+      = succeed "jpg" do
+        %input{:name => "program", :type => "radio", :value => "2"}/
+      %br/
+      %table
+        %thead
+          %tr
+            %th
+              option
+            %th
+              value
+        %tr
+          %td
+            Image quality
+          %td
+            %input{:name => "imagequality", :type => "text", :value => "94"}/
+      %input{:type => "submit", :value => "Convert!"}/
+
