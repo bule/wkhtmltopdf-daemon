@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'sinatra/base'
 require 'haml'
-require 'actioncontroller'
 
 
 class WkhtmltopdfDaemon < Sinatra::Base
