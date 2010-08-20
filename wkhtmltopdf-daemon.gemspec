@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Stefan Manneck"]
-  s.date = %q{2010-08-19}
+  s.date = %q{2010-08-20}
   s.default_executable = %q{wkhtmltopdf-daemon}
   s.description = %q{convert a given URL to an pdf file with the wkhtmltopdf tool}
   s.email = %q{smanneck@sub-link.de}
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "bin/wkhtmltopdf-daemon",
      "lib/...",
+     "lib/views/index.haml",
      "lib/wkhtmltopdf-daemon.rb",
      "lib/wkhtmltopdf-daemon/config.ru",
      "test/helper.rb",
