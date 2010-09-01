@@ -1,6 +1,8 @@
 = wkhtmltopdf-daemon
 
-Description goes here.
+start with 'wkhtmltopdf-daemon start' from the wkhtmltopdf-daemon
+directory.
+Other directories currently raise a 'No such file or directory' exception.
 
 == Note on Patches/Pull Requests
  
